@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+	<link rel="stylesheet" href="styles/style.css" />
+	<title>Cartão fidelidade</title>
+</head>
+
+<body>
+	<img class="member-club-logo" src="./assets/Logo.png" alt="member-club-logo">
+	<form class="input-container">
+		<input id="id" type="text" placeholder="ID do cartão" />
+		<button type="button" class="button" onclick="searchUserById()">
+			<i class="ph-fill ph-arrow-elbow-down-left"></i>
+		</button>
+	</form>
+
+	<div class="main-container">
+		<div class="main-item profile">
+			<div class="profile-pic">
+				<div id="profile-pic-id" class="border">
+				</div>
+			</div>
+			<div>
+				<p id="username" class="name"></p>
+				<p id="clientSince" class="clientSince"></p>
+			</div>
+		</div>
+
+		<div class="main-item history">
+			<div id="history-header" class="header">
+			</div>
+
+			<div id="cuts" class="cortes">
+			</div>
+		</div>
+
+		<div class="main-item card">
+			<div class="card-header">
+				<div class="card-header-text">
+					<strong>Cartão Fidelidade</strong>
+					<p>Ao fazer cortes de cabelo, o décimo sai de graça!</p>
+				</div>
+				<div class="card-header-id">
+					<span id="card-header-id-span"></span>
+				</div>
+			</div>
+			<div id="card-content" class="card-content">
+			</div>
+		</div>
+
+		<div class="main-item progress">
+			<div id="progress-items" class="progress-items">
+			</div>
+			<div class="progress-image">
+				<img src="./assets/PinGift.png" alt="Gift-image">
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<script src="js/app.js"></script>
+
+</html>

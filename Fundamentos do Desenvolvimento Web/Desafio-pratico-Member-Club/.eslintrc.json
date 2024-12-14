@@ -1,0 +1,15 @@
+{
+    "extends": ["eslint:recommended", "google"],
+    "rules": {
+        "camelcase": "off",
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto",
+                "trailingComma": "none",
+                "tabWidth": 4,
+                "useTabs": false
+            }
+        ]
+    }
+}

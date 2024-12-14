@@ -1,0 +1,21 @@
+{
+  "name": "dp-member-club",
+  "version": "1.0.0",
+  "description": "Aplicação web responsiva de um Cartão fidelidade: o Member Club!",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch backend/db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "9.14.0",
+    "babel-loader": "^9.2.1",
+    "eslint": "^9.14.0",
+    "eslint-config-google": "^0.14.0",
+    "globals": "15.12.0",
+    "json-server": "^1.0.0-beta.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

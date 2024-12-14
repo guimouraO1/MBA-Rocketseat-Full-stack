@@ -1,0 +1,61 @@
+{
+  "clients": [
+    {
+      "id": "124-537-835-230",
+      "name": "Guilherme Oliveira",
+      "clientSince": "14/06/2024",
+      "profilePic": "https://github.com/guimouraO1.png",
+      "appointmentHistory": [
+        {"date": "14/01/2025", "time": "18:30"},
+        {"date": "14/12/2024", "time": "19:30"},
+        {"date": "14/11/2024", "time": "20:30"},
+        {"date": "14/10/2024", "time": "21:30"},
+        {"date": "14/09/2024", "time": "22:30"},
+        {"date": "14/08/2024", "time": "23:30"},
+        {"date": "14/07/2024", "time": "17:30"}
+      ],
+      "loyaltyCard": {
+        "totalCuts": 7,
+        "cutsNeeded": 10,
+        "cutsRemaining": 3
+      }
+    },
+    {
+      "id": "124-537-835-231",
+      "name": "Diego Fernandes",
+      "clientSince": "14/06/2024",
+      "profilePic": "https://github.com/diego3g.png",
+      "appointmentHistory": [
+        {"date": "14/01/2025", "time": "18:30"}
+      ],
+      "loyaltyCard": {
+        "totalCuts": 1,
+        "cutsNeeded": 10,
+        "cutsRemaining": 9
+      }
+    },
+    {
+      "id": "124-537-835-232",
+      "name": "Mayk Brito",
+      "clientSince": "14/06/2024",
+      "profilePic": "https://github.com/maykbrito.png",
+      "appointmentHistory": [
+        {"date": "14/01/2025", "time": "18:30"},
+        {"date": "14/12/2024", "time": "19:30"},
+        {"date": "14/11/2024", "time": "20:30"},
+        {"date": "14/10/2024", "time": "21:30"},
+        {"date": "14/09/2024", "time": "22:30"},
+        {"date": "14/08/2024", "time": "23:30"},
+        {"date": "14/07/2024", "time": "17:30"},
+        {"date": "14/07/2024", "time": "17:30"},
+        {"date": "14/07/2024", "time": "17:30"},
+        {"date": "14/06/2024", "time": "17:30"}
+      ],
+      "loyaltyCard": {
+        "totalCuts": 10,
+        "cutsNeeded": 10,
+        "cutsRemaining": 0
+      }
+    }
+  ]
+}
