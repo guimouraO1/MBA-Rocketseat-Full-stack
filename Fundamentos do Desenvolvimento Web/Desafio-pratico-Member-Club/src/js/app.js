@@ -27,6 +27,8 @@ class ClientProfile {
 		this.renderAppointmentHistory();
 		this.renderLoyaltyCard();
 		this.renderProgressBar();
+
+		if (this.user.loyaltyCard.totalCuts === 10) alert('Parabéns! Seu próximo corte é gratuito!');
 	}
 
 	renderAppointmentHistory() {
